@@ -1,0 +1,53 @@
+# Header
+menu:
+  Главная: /
+  Архив: /archives
+  О нас: /about
+  Рассписание: /schedule
+  Стоимость: /prices
+  Контакты: /contacts
+  vk:
+    url: https://vk.com/akash_yoga
+    icon: vk
+  instagram:
+    url: https://www.instagram.com/aarogya_yoga_minsk/
+    icon: instagram
+
+# Title on top left of menu. Leave empty to use main blog title
+menu_title: Aarayayoga
+
+# URL of the Home page image
+index_cover: /img/contact-bg.jpg
+
+# Default post title
+default_post_title: Untitled
+
+# Comments. Choose one by filling up the information
+comments:
+  # Disqus comments
+  disqus_shortname:
+  # Facebook comments
+  facebook:
+    appid:
+    comment_count: 5
+    comment_colorscheme: light
+
+# Google Analytics Tracking ID
+google_analytics:
+
+# Addthis ID
+addthis:
+
+# set your own favicon
+favicon: /img/favicon-aaraya.jpg
+
+# Social Accounts
+vk_url: https://vk.com/akash_yoga
+instagram_url: https://www.instagram.com/aarogya_yoga_minsk/
+twitter_url:
+twitter_handle:
+facebook_url:
+github_url: https://github.com/klugjo/hexo-theme-clean-blog
+gitlab_url:
+linkedin_url:
+mailto:
