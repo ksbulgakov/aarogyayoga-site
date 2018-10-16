@@ -43,6 +43,10 @@
     <section class="main">
         <%- partial('_partial/contacts', {item: page}) %>
     </section>
+<% } else if (page.title === 'prices') { %>
+    <section class="main">
+        <%- partial('_partial/prices', {item: page}) %>
+    </section>
 <% } else { %>
     <section class="main">
         <%- partial('_partial/article-full', {item: page}) %>
