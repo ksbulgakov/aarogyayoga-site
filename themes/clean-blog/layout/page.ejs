@@ -11,7 +11,6 @@
         title = __('categories');
     }
 %>
-
 <% if (isTagIndex || isCategoryIndex) { %>
     <header class="intro-header" style="background-image: url('<%- theme.index_cover %>')">
         <div class="container">
@@ -36,6 +35,10 @@
             </div>
         </div>
     </div>
+<% } else if (page.title === 'about') { %>
+    <section class="main">
+        <%- partial('_partial/about', {item: page}) %>
+    </section>
 <% } else { %>
     <section class="main">
         <%- partial('_partial/article-full', {item: page}) %>
