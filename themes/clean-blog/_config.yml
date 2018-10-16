@@ -17,10 +17,10 @@ menu:
 menu_title: Aarogyayoga
 
 # URL of the Home page image
-index_cover: /img/home-bg.jpg
-index_cover_archive: /img/archive-bg.jpg
-index_cover_about: /img/about-bg.jpg
-index_cover_contacts: /img/head-background.jpg
+index_cover: /img/head-background.jpg
+# index_cover_archive: /img/archive-bg.jpg
+# index_cover_about: /img/about-bg.jpg
+# index_cover_contacts: /img/head-background.jpg
 
 
 # Default post title
