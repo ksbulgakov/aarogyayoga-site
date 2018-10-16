@@ -14,10 +14,13 @@ menu:
     icon: instagram
 
 # Title on top left of menu. Leave empty to use main blog title
-menu_title: Aarayayoga
+menu_title: Aarogyayoga
 
 # URL of the Home page image
-index_cover: /img/contact-bg.jpg
+index_cover: /img/home-bg.jpg
+index_cover_archive: /img/archive-bg.jpg
+index_cover_about: /img/about-bg.jpg
+
 
 # Default post title
 default_post_title: Untitled
@@ -39,7 +42,7 @@ google_analytics:
 addthis:
 
 # set your own favicon
-favicon: /img/favicon-aaraya.jpg
+favicon: /img/favicon-aarogya.jpg
 
 # Social Accounts
 vk_url: https://vk.com/akash_yoga
