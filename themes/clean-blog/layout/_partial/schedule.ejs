@@ -1,0 +1,33 @@
+<!-- Page Header -->
+<!-- Set your background image for this header in your post front-matter: cover -->
+<%
+    var cover = theme.index_cover_prices || theme.index_cover;
+    item.title = 'Расписание';
+%>
+<header class="intro-header" style="background-image: url('<%- cover %>')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <h1><%- item.title || theme.default_post_title || "Untitled" %></h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+
+            <!-- Post Main Content -->
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div>
+                    <%- item.content %>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</article>
