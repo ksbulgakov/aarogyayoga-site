@@ -1,0 +1,41 @@
+<hr />
+
+<!-- Form -->
+<form data-toggle="validator" role="form" action="https://formspree.io/ksbulgakov@gmail.com" method="POST">
+
+  <div class="form-group">
+      <label for="inputName" class="control-label">Имя</label>
+      <input type="text" class="form-control" name="Name" placeholder="Екатарина Прекрасная" required>
+  </div>
+
+  <div class="form-group">
+      <label for="inputEmail" class="control-label">Email</label>
+      <input type="email" class="form-control" name="Email" placeholder="Email" data-error="">
+      <div class="help-block with-errors"></div>
+  </div>
+
+  <div class="form-group">
+      <label for="inputEmail" class="control-label">Телефон</label>
+      <input type="text" class="form-control" name="Phone_number" placeholder="+375 (29) 555-55-55" data-error="На всякий случай нам нужна возможность связаться с Вами." required>
+      <div class="help-block with-errors"></div>
+  </div>
+
+    <div class="form-group">
+      <label for="inputEmail" class="control-label">Сообщение</label>
+      <input type="text" class="form-control" name="Message" placeholder="Планирую 31.12.2018 в 24.00 посетить занятие по ... " data-error="Укажите пожалуйта дату и время Вашего посещения" required>
+      <div class="help-block with-errors"></div>
+  </div>
+
+  <div class="form-group">
+      <div class="checkbox">
+      <label>
+          <input type="checkbox" name="First_time" data-error="">
+          Первое занятие в нашем центре (скидка 50 %)
+      </label>
+      <div class="help-block with-errors"></div>
+      </div>
+  </div>
+  <div class="form-group">
+      <button type="submit" class="btn btn-primary">Submit</button>
+  </div>
+</form>
