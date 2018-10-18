@@ -52,7 +52,7 @@
 
             <!-- Gallery -->
             <% if (item.photos && item.photos.length){ %>
-                <%- partial('gallery') %>
+                <%- partial('gallery', { photos: item.photos }) %>
             <% } %>
 
             <!-- Post Main Content -->

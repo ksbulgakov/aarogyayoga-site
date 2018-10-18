@@ -6,6 +6,9 @@ menu:
   Рассписание: /schedule
   Стоимость: /prices
   Контакты: /contacts
+  facebook:
+    url: https://www.facebook.com/aarogya.yoga.minsk
+    icon: facebook
   vk:
     url: https://vk.com/akash_yoga
     icon: vk
@@ -50,7 +53,7 @@ vk_url: https://vk.com/akash_yoga
 instagram_url: https://www.instagram.com/aarogya_yoga_minsk/
 twitter_url:
 twitter_handle:
-facebook_url:
+facebook_url: https://www.facebook.com/aarogya.yoga.minsk
 github_url: https://github.com/klugjo/hexo-theme-clean-blog
 gitlab_url:
 linkedin_url:

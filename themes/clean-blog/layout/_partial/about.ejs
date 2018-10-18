@@ -24,15 +24,37 @@
             <!-- Gallery -->
             <div>
                 <% if (item.photos && item.photos.length){ %>
-                    <%- partial('gallery') %>
+                    <%- partial('gallery', { photos: item.photos }) %>
                 <% } %>
             </div>
 
-            <!-- Post Main Content -->
+            <!-- Main Content -->
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <%- item.content %>
             </div>
-            
+
+            <!-- Teachers -->
+            <% if (item.teachers){   %>
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <div>
+                        <h3>Наши преподаватели</h3>
+                    </div>
+                    <div>
+                        <h4><%- site.data.teachers.rahle.name %></h4>
+                    </div>
+                </div>
+                <div>
+                    <% if (item.rahle_photos && item.rahle_photos.length){ %>
+                        <%- partial('gallery',{ photos: item.rahle_photos }) %>
+                    <% } %>
+                </div>
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <div>
+                        <p><%- site.data.teachers.rahle.info %></p>
+                    </div>
+                </div>
+            <% } %>
+
         </div>
     </div>
 </article>
