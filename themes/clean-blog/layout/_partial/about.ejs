@@ -34,25 +34,26 @@
             </div>
 
             <!-- Teachers -->
-            <% if (item.teachers){   %>
-                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    <div>
+            <% if (item.teachers){ %>
+                    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                         <h3>Наши преподаватели</h3>
                     </div>
-                    <div>
-                        <h4><%- site.data.teachers.rahle.name %></h4>
-                    </div>
-                </div>
-                <div>
-                    <% if (item.rahle_photos && item.rahle_photos.length){ %>
-                        <%- partial('gallery',{ photos: item.rahle_photos }) %>
-                    <% } %>
-                </div>
-                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    <div>
-                        <p><%- site.data.teachers.rahle.info %></p>
-                    </div>
-                </div>
+
+                    <% Object.keys(site.data.teachers).forEach(function(key){ %>
+                        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                            <h4><%- site.data.teachers[key].name %></h4>
+                        </div>
+                        <div>
+                            <% if (item[key] && item[key].length){ %>
+                                <%- partial('gallery',{ photos: item[key] }) %>
+                            <% } %>
+                        </div>
+                        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                            <div>
+                                <%- site.data.teachers[key].info %>
+                            </div>
+                        </div>
+                    <% }); %>
             <% } %>
 
         </div>

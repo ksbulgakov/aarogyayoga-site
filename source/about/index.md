@@ -7,10 +7,16 @@ photos:
 - /about/index/desert.jpg
 - /about/index/eagle.jpg
 teachers: true
-rahle_photos:
-- /about/index/rahle_1.jpg
-- /about/index/rahle_2.jpg
-- /about/index/rahle_3.jpg
+rahley:
+- /about/index/rahley.jpg
+akash:
+- /about/index/akash.jpg
+kuchevskaya:
+- /about/index/kuchevskaya.jpg
+filimonova:
+- /about/index/filimonova.jpg
+stashkevich:
+- /about/index/stashkevich.jpg
 ---
 
 ### Центр йоги, релаксации и медитации Heartfulness.✨🙏
