@@ -2,10 +2,10 @@
 title: about
 date: 2018-10-16 13:11:18
 photos:
-- /about/index/train.jpg
-- /about/index/station.jpg
-- /about/index/desert.jpg
-- /about/index/eagle.jpg
+- /about/index/photo-1.jpg
+- /about/index/photo-3.jpg
+- /about/index/photo-2.jpg
+- /about/index/certificate-akash.jpg
 teachers: true
 rahley:
 - /about/index/rahley.jpg
