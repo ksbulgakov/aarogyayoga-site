@@ -15,8 +15,6 @@ kuchevskaya:
 - /about/index/kuchevskaya.jpg
 filimonova:
 - /about/index/filimonova.jpg
-stashkevich:
-- /about/index/stashkevich.jpg
 ---
 
 ### Центр йоги, релаксации и медитации Heartfulness.✨🙏
