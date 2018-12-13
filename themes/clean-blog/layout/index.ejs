@@ -14,16 +14,12 @@
     </div>
 </header>
 
-<!-- Main Content -->
-<div class="container">
-    <div class="row">
-        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-            <% page.posts.each(function(item){ %>
-                <%- partial('_partial/article-index', {item: item}) %>
-            <% }); %>
+<%
+    var main = site.pages.data.filter(function(pageObject) {
+        return pageObject.title === 'main';
+    });
+%>
 
-            <%- partial('_partial/pagination') %>
-        </div>
-    </div>
-</div>
-
+<section class="main">
+    <%- partial('_partial/main', {item: main[0]}); %>
+</section>
