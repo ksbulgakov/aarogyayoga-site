@@ -1,5 +1,5 @@
 prev: Назад
 next: Вперед
 comment: Комментарии
-archive_a: Архив
-archive_b: "Архив: %s"
+archive_a: Новости
+archive_b: "Новости: %s"

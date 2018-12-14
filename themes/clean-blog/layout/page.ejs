@@ -14,10 +14,6 @@
     <section class="main">
         <%- partial('_partial/schedule', {item: page}) %>
     </section>
-<% } else if (page.title === 'main') { %>
-    <section class="main">
-        <%- partial('_partial/main', {item: page}) %>
-    </section>
 <% } else { %>
     <section class="main">
         <%- partial('_partial/article-full', {item: page}) %>
