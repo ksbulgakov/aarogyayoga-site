@@ -1,9 +1,9 @@
 # Header
 menu:
   Главная: /
-  Новости: /archives
+  # Новости: /archives
   О нас: /about
-  Рассписание: /schedule
+  Расписание: /schedule
   Стоимость: /prices
   Контакты: /contacts
   facebook:
