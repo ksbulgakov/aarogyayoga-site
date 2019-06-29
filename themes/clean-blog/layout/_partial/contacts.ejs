@@ -26,7 +26,12 @@
                 <div>
                     <%- item.content %>
                 </div>
-                <iframe src="https://yandex.ru/map-widget/v1/-/CCf6qWLo" width="560" height="400" style="border:none;" frameborder="1" allowfullscreen="true"></iframe>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe src="https://yandex.ru/map-widget/v1/-/CCf6qWLo" width="560" height="400" style="border:none;" frameborder="1" allowfullscreen="true"></iframe>
+                </div>
+                <div style="margin-top:20px;">
+                    <img src="<%- item.photos[0] %>" class="img-thumbnail img-responsive" />
+                </div>
             </div>
             
         </div>
